@@ -6,44 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Abby Kaemmerer's Portfolio</title>
 
-<style>
-  nav {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 200px;
-    color:navy;
-  }
-  header{
-    color: rgb(156, 67, 26);
-    font-size:24px;
-    text-align: center;
-    height: 50px;
-    width: 1000px;
-  }
-section {
-  color: rgba(128, 0, 0, 0.61);
-}
-footer {
-color: plum;
-
-}
-.lil {
-  color: rgb(103, 141, 46);
-}
-.DJ {
-  color: rgb(55, 80, 163);
-}
-
-.britt {
-  color: rgb(75, 59, 97);
-}
-</style>
-
-
-
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav >
+    <nav class="container">
         <ul>
           <li><a href="about.html">About Me</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -58,11 +25,11 @@ color: plum;
         </ul>
       </nav>
 
-  <header >
+  <header class="container" >
   <h1>Abby Kaemmerer's Portfolio</h1>
   </header>
 
-  <main>
+  <main class="container">
     <section class="lil">
       <h2>Just a lil section header</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aspernatur velit illo, fugiat mollitia sunt id enim fuga culpa optio ratione, quae placeat suscipit repudiandae voluptate, veritatis quasi! At, nostrum.</p>
@@ -76,22 +43,33 @@ color: plum;
         <li>Holla</li>
         <li>Back</li>
       </ol>
+
+      <div>
+        <img src="https://picsum.photos/200/300" alt="Lorem Picsum">
+
+        <img src="https://picsum.photos/200/300" alt="Lorem Picsum">
+
+        <img src="https://picsum.photos/200/300" alt="Lorem Picsum">
+
+        <img src="https://picsum.photos/200/300" alt="Lorem Picsum">
+      </div>
+
+
+
     </section>
     <section class="DJ">
       <h2>Anotha one</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eum dolores quaerat molestiae assumenda consectetur ea nesciunt illum labore aspernatur dolore maxime porro minima, qui, autem quae. Possimus, tempora aut!</p>
       <p>Quibusdam voluptatibus cupiditate quas blanditiis sunt quia iusto, tempora natus porro possimus consequatur, pariatur odio laborum quod voluptatem quisquam ipsam. Molestias, aperiam. Veritatis eius animi, consequatur sed quisquam dignissimos odit.</p>
       <p>At, enim saepe temporibus asperiores facilis magni, distinctio quas ea ipsa explicabo numquam accusantium officiis vero dolore quidem tempora, expedita optio! Sint, corporis veritatis rerum reiciendis provident nihil pariatur accusantium?</p>
-    </section>
-    <section class="britt">
-      <h>Hit me baby, ONE MORE TIME.</h>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptates repudiandae cumque cupiditate maxime consectetur at saepe. Sed, temporibus. Molestias reprehenderit facilis quasi beatae iste, tempora consequatur incidunt. Commodi, ullam!</p>
-      <p>Iste dignissimos sunt ratione, accusamus, earum, quos ex omnis tenetur natus quaerat consectetur illo voluptate. Excepturi, tempore doloribus ex assumenda a cupiditate eos fugit facere reprehenderit esse quo perspiciatis ab.</p>
-      <p>Dolorem omnis voluptatum porro soluta vero maxime unde molestias, nam voluptate ipsa iure eveniet sit. Soluta vitae voluptas, officia numquam exercitationem minus saepe molestias neque animi, recusandae, nostrum eveniet quisquam.</p>
+      <figure>
+        <img src="./jon.jpeg" alt="Jon Snow" width="300px" height="350px">
+        <figurecaption> King in the North </figurecaption>
+      </figure>
     </section>
   </main>
 
-  <footer>
+  <footer class="container">
    &copy; 2019 Byyyyyyye.
 
   </footer>

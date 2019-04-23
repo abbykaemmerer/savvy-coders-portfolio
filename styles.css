@@ -1,0 +1,52 @@
+
+<style>
+/* ~ general selector; + adjacent selector */
+p ~ img {
+  border: 5px dotted palevioletred;
+  padding: 10px;
+}
+.container {
+  max-width: 960px;
+  width: 90vw;
+  margin: 0 auto;
+}
+nav {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 200px;
+  color:navy;
+}
+header{
+  color: rgb(156, 67, 26);
+  font-size:24px;
+  text-align: center;
+  height: 20vh;
+  width: 50vw;
+}
+section {
+color: rgba(128, 0, 0, 0.61);
+}
+footer {
+color: plum;
+
+}
+.lil {
+color: rgb(103, 141, 46);
+}
+.DJ {
+color: rgb(55, 80, 163);
+}
+
+.britt {
+color: rgb(75, 59, 97);
+}
+
+div img:nth-child(odd) {
+border: 10px solid seagreen;
+}
+
+div img:nth-child(even) {
+border: 10px solid darkolivegreen;
+}
+
+</style>
