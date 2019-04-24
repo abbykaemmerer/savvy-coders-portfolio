@@ -42,6 +42,9 @@ color: rgb(75, 59, 97);
 
 .flex {
   display: flex;
+}
+
+.flex--column {
   flex-direction: column;
 }
 
@@ -56,4 +59,19 @@ span + span {
 
 .contact {
   text-align: center;
+}
+
+form span + div {
+  margin-top: 20px;
+}
+textarea {
+  margin-top: 10px;
+}
+
+form p {
+  margin-bottom: 5px;
+}
+
+form > div + div {
+  margin-top: 10px;
 }
