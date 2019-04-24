@@ -1,4 +1,8 @@
 /* ~ general selector; + adjacent selector */
+html {
+  font-family: 'Playfair Display', serif;
+  background-color:rgba(245, 245, 245, 0.884);
+}
 header{
   color: rgb(156, 67, 26);
   font-size:24px;
