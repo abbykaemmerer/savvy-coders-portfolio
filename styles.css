@@ -1,15 +1,4 @@
-
-<style>
 /* ~ general selector; + adjacent selector */
-p ~ img {
-  border: 5px dotted palevioletred;
-  padding: 10px;
-}
-.container {
-  max-width: 960px;
-  width: 90vw;
-  margin: 0 auto;
-}
 nav {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
@@ -24,12 +13,22 @@ header{
   width: 50vw;
 }
 section {
-color: rgba(128, 0, 0, 0.61);
+color: rgba(128, 0, 0, 0.612);
 }
 footer {
 color: plum;
 
 }
+body {
+  color: rgb(75, 59, 97);
+}
+
+.container {
+  max-width: 960px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .lil {
 color: rgb(103, 141, 46);
 }
@@ -41,12 +40,20 @@ color: rgb(55, 80, 163);
 color: rgb(75, 59, 97);
 }
 
-div img:nth-child(odd) {
-border: 10px solid seagreen;
+.flex {
+  display: flex;
+  flex-direction: column;
 }
 
-div img:nth-child(even) {
-border: 10px solid darkolivegreen;
+/* Form */
+input {
+  margin-left: 40px;
 }
 
-</style>
+span + span {
+  margin-left: 15px;
+}
+
+.contact {
+  text-align: center;
+}
