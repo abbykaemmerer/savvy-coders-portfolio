@@ -1,16 +1,11 @@
 /* ~ general selector; + adjacent selector */
-nav {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  font-weight: 200px;
-  color:navy;
-}
 header{
   color: rgb(156, 67, 26);
   font-size:24px;
   text-align: center;
   height: 20vh;
   width: 50vw;
+  padding-top: 30px;
 }
 section {
 color: rgba(128, 0, 0, 0.612);
@@ -24,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 960px;
   width: 90vw;
   margin: 0 auto;
 }
@@ -94,6 +89,12 @@ form > div + div {
 }
 
 /* Navigation */
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
 nav li {
 margin: 0 20px;
 text-transform: uppercase;
@@ -102,6 +103,7 @@ color: darkcyan;
 
 #dropdown {
   display: none;
+  position: absolute;
 
 }
 
