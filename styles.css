@@ -3,6 +3,10 @@ html {
   font-family: 'Playfair Display', serif;
   background-color:rgba(245, 245, 245, 0.884);
 }
+
+h2 {
+  margin-top: 100px;
+}
 header{
   color: rgb(156, 67, 26);
   font-size:24px;
@@ -16,7 +20,8 @@ section {
 color: rgba(128, 0, 0, 0.612);
 }
 footer {
-color: plum;
+color: navy;
+text-align: center;
 
 }
 body {
@@ -65,6 +70,9 @@ a{
   justify-content: space-between;
 }
 
+figure {
+  float: left;
+}
 /* Form */
 input {
   margin-left: 40px;
