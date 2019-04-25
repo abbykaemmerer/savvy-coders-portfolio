@@ -4,8 +4,15 @@ html {
   background-color:rgba(245, 245, 245, 0.884);
 }
 
-h2 {
-  margin-top: 100px;
+.sec1 {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.sec2 {
+  margin-top: 213px;
+  margin-bottom: 60px;
+  text-align: left;
 }
 header{
   color: rgb(156, 67, 26);
@@ -13,7 +20,8 @@ header{
   text-align: center;
   height: 20vh;
   width: 50vw;
-  padding-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   font-weight: 100px;
 }
 section {
@@ -22,14 +30,14 @@ color: rgba(128, 0, 0, 0.612);
 footer {
 color: navy;
 text-align: center;
-
+padding: 15px;
 }
 body {
   color: rgb(75, 59, 97);
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1500px;
   width: 90vw;
   margin: 0 auto;
 }
@@ -69,7 +77,9 @@ a{
 .justify-space--between {
   justify-content: space-between;
 }
-
+.jon {
+  border:5px solid black;
+}
 figure {
   float: left;
 }
@@ -106,6 +116,7 @@ form > div + div {
 nav {
   position: sticky;
   top: 0;
+  padding: 15px;
 }
 
 nav li {
