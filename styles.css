@@ -6,11 +6,13 @@ html {
 
 .sec1 {
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
-
+.sec1title {
+  padding-bottom: 10px;
+}
 .sec2 {
-  margin-top: 213px;
+  margin-top: 150px;
   margin-bottom: 60px;
   text-align: left;
 }
@@ -28,7 +30,7 @@ section {
 color: rgba(128, 0, 0, 0.612);
 }
 footer {
-color: navy;
+color: darkcyan;
 text-align: center;
 padding: 15px;
 }
@@ -68,8 +70,15 @@ ul {
 
 li {
   list-style: none;
+  text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+.sec2title {
+  padding-top: 30px;
+}
 a{
   text-decoration: none;
   color: darkcyan;
