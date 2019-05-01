@@ -1,29 +1,24 @@
 /* ~ general selector; + adjacent selector */
 html {
   font-family: 'Playfair Display', serif;
-  background-color:rgba(245, 245, 245, 0.884);
+  background-color:#f5f5f5);
 }
 
 .sec1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  max-width: 400px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+
 }
-.sec1title {
-  padding-bottom: 10px;
-}
-.sec2 {
-  margin-top: 150px;
-  margin-bottom: 60px;
-  text-align: left;
-}
+
 header{
   color: rgb(156, 67, 26);
   font-size:24px;
   text-align: center;
   height: 20vh;
   width: 50vw;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 30px;
   font-weight: 100px;
 }
 section {
@@ -34,25 +29,25 @@ color: darkcyan;
 text-align: center;
 padding: 15px;
 }
+
 body {
-  color: rgb(75, 59, 97);
+  background: #ffffff;
+  margin: 100px auto;
+  border-style: solid;
+  border-color: #eee;
+  max-width: 800px;
+
 }
 
 .container {
   max-width: 1500px;
   width: 90vw;
   margin: 0 auto;
+
 }
 
 .lil {
 color: rgb(103, 141, 46);
-}
-.DJ {
-color: rgb(55, 80, 163);
-}
-
-.britt {
-color: rgb(75, 59, 97);
 }
 
 .flex {
@@ -76,9 +71,7 @@ li {
 h2 {
   text-align: center;
 }
-.sec2title {
-  padding-top: 30px;
-}
+
 a{
   text-decoration: none;
   color: darkcyan;
@@ -86,12 +79,12 @@ a{
 .justify-space--between {
   justify-content: space-between;
 }
-.jon {
-  border:5px solid black;
-}
+
+/*
 figure {
   float: left;
-}
+} */
+
 /* Form */
 input {
   margin-left: 40px;
