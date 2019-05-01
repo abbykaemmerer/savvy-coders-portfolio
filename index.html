@@ -22,7 +22,7 @@
 
   <body>
     <div class="canvas">
-    <nav class="container">
+    <nav>
       <ul class="flex">
         <li><a href="about.html">About Me</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -42,7 +42,7 @@
     </header>
   </div>
 
-    <main class="container">
+    <main>
       <section>
         <div>
           <figure>
@@ -107,7 +107,7 @@
       </section>
     </main>
 
-    <footer class="container">
+    <footer>
       &copy; 2019 Abby Kaemmerer
       <a href="https://github.com/abbykaemmerer" target="_blank">
         <span class="fab fa-github"></span"></a>
@@ -122,13 +122,19 @@
     <script>
       let name = prompt("What is your name?");
 
-      function errorCheck() {
+
+      // Function declaration
+      function errorCheck(someName) {
         if (name === "") {
-         name = prompt("Como te llama?");
+         name = prompt("Como te llamas?");
       }
+      return name;
       }
 
-      errorCheck();
+      // Function expression
+      // let errorCheck = function() {}
+
+      name = errorCheck(name);
 
 
       alert(`Hello ${name}!`);
