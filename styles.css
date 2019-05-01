@@ -1,47 +1,67 @@
 /* ~ general selector; + adjacent selector */
 html {
   font-family: 'Playfair Display', serif;
+  background-color:rgba(245, 245, 245, 0.884);
 }
 
-header {
-  font-size: 20px;
+.sec1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sec1title {
+  padding-bottom: 10px;
+}
+.sec2 {
+  margin-top: 150px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+header{
+  color: rgb(156, 67, 26);
+  font-size:24px;
   text-align: center;
+  height: 20vh;
+  width: 50vw;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-weight: 100px;
 }
-body {
-  color: rgba(28,28,28,.8);
-  font-size: 14px;
-  line-height: 1.8em;
-  text-transform: none;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
-  background-size: auto;
-  background-color: #f5f5f5;
-  margin: 0;
+section {
+color: rgba(128, 0, 0, 0.612);
 }
-
-  @media only screen and (max-width: 1024px) {
-  .canvas {
-    margin: 0px auto;
-  }
-  };
-
-body .canvas {
-  background-color: #fff;
-}
-.canvas {
-  max-width: 800px;
-  padding: 100px 100px 0;
-  display: block
-}
-
-
 footer {
 color: darkcyan;
 text-align: center;
 padding: 15px;
 }
+body {
+  color: rgb(75, 59, 97);
+}
 
+.container {
+  max-width: 1500px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.lil {
+color: rgb(103, 141, 46);
+}
+.DJ {
+color: rgb(55, 80, 163);
+}
+
+.britt {
+color: rgb(75, 59, 97);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--column {
+  flex-direction: column;
+}
 
 ul {
   margin: 0;
@@ -56,81 +76,22 @@ li {
 h2 {
   text-align: center;
 }
-
-figure {
-  float: left;
+.sec2title {
+  padding-top: 30px;
 }
-
 a{
   text-decoration: none;
   color: darkcyan;
 }
-
-
-.flex {
-  display: flex;
-}
-
-.flex--column {
-  flex-direction: column;
-}
-
-.sec1 {
-  margin-top: 30px;
-}
-
-.sec1title {
-  padding-bottom: 10px;
-}
-
-.sec2 {
-  margin-top: 50px;
-  margin-bottom: 60px;
-  text-align: left;
-}
-
-.sec2title {
-  padding-top: 30px;
-}
-
 .justify-space--between {
   justify-content: space-between;
 }
-
- @media screen and (min-width: 1200px) {
-   body {
-     display: grid;
-     grid-template-columns: 12rem auto;
-     grid-template-rows: min-content auto auto min-content;
-     grid-template-areas:
-     "navigation header"
-     "navigation main"
-     "navigation main"
-     "navigation footer";
-   }
-
-   nav {
-     grid-area: navigation;
-   }
-
-   nav > ul {
-     flex-direction: column;
-   }
-
-   header {
-     grid-area: header;
-   }
-
-   main {
-     grid-area: main;
-   }
-
-   footer {
-     grid-area: footer;
-   }
- }
-
-
+.jon {
+  border:5px solid black;
+}
+figure {
+  float: left;
+}
 /* Form */
 input {
   margin-left: 40px;
