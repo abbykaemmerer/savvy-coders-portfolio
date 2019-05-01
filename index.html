@@ -21,8 +21,10 @@
   </head>
 
   <body>
-    <div class="canvas">
-    <nav>
+      <header class="container">
+          <h1>Abby Kaemmerer's Portfolio</h1>
+        </header>
+    <nav class="container">
       <ul class="flex">
         <li><a href="about.html">About Me</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -37,13 +39,10 @@
       </ul>
     </nav>
 
-    <header class="header">
-      <h1>Abby Kaemmerer's Portfolio</h1>
-    </header>
-  </div>
 
-    <main>
-      <section>
+
+    <main class="container">
+      <section class="lil">
         <div>
           <figure>
               <img src="./jon.jpeg" alt="Jon Snow" width="300px" height="350px" class="jon"/>
@@ -84,7 +83,7 @@
         </div>
       </section>
 
-      <section class="sec3">
+      <section class="DJ">
         <h2>Anotha one</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eum
@@ -107,38 +106,16 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="container">
       &copy; 2019 Abby Kaemmerer
       <a href="https://github.com/abbykaemmerer" target="_blank">
         <span class="fab fa-github"></span"></a>
-
       <a href="https://www.linkedin.com/in/abby-kaemmerer-80331766/" target="_blank">
         <span class="fab fa-linkedin"></span></a>
-
       <a href="https://www.facebook.com/abby.kaemmerer">
         <span class="fab fa-facebook"></span></a>
-
     </footer>
-    <script>
-      let name = prompt("What is your name?");
+    <script src="index.js"></script>
 
-
-      // Function declaration
-      function errorCheck(someName) {
-        if (name === "") {
-         name = prompt("Como te llamas?");
-      }
-      return name;
-      }
-
-      // Function expression
-      // let errorCheck = function() {}
-
-      name = errorCheck(name);
-
-
-      alert(`Hello ${name}!`);
-
-    </script>
   </body>
 </html>
