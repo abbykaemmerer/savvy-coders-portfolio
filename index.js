@@ -19,5 +19,5 @@ function errorCheck(someName){
 name = errorCheck(name);
 
 
-document.querySelector('h1').textContent = `Hello ${name}`;
+document.querySelector('#greeting').innerHTML = `<p> Hello ${name}! </p>`;
 
