@@ -6,4 +6,12 @@ import Main from './components/Main';
 
 import Footer from './components/Footer';
 
-console.log(Navigation, Header, Main, Footer);
+let initialHTML = document.body.innerHTML;
+
+document.body.innerHTML = `
+${Navigation}
+${Header}
+${Main}
+${Footer}
+${initialHTML}
+`;
