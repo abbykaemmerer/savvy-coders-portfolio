@@ -1,26 +1,9 @@
-let nameArr = [];
+import Navigation from './components/Navigation';
 
-nameArr[0] = prompt('What is your first name?');
-nameArr[1] = prompt('What is your last name?');
+import Header from './components/Header';
 
-// Function declaration
-function errorCheck(name){
-    if(!name[0] || !name[1]){
-        name[0] = prompt("Nah, for real. What's your first name?");
-        name[1] = prompt('What da heck is your last name?');
+import Main from './components/Main';
 
-        // Recursion- function calls itself again
-        name = errorCheck(name);
-    }
+import Footer from './components/Footer';
 
-    return name;
-}
-
-// Function expression
-// let errorCheck = function() {}
-
-nameArr = errorCheck(nameArr);
-
-
-document.querySelector('#greeting').innerHTML = `<p> Hello, ${nameArr[0]} ${nameArr[1]} ! </p>`;
-
+console.log(Navigation, Header, Main, Footer);
