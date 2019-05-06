@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 let initialHTML = document.body.innerHTML;
 
-document.body.innerHTML = `
+document.querySelector('#root').innerHTML = `
 ${Navigation}
 ${Header}
 ${Main}
