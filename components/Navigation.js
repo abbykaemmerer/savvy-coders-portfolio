@@ -1,4 +1,5 @@
-export default ` <nav>
+export default function Navigation(){
+    return ` <nav>
 <ul class="flex">
   <li><a href="about.html">About Me</a></li>
   <li><a href="contact.html">Contact</a></li>
@@ -12,3 +13,4 @@ export default ` <nav>
   </li>
 </ul>
 </nav>`;
+}

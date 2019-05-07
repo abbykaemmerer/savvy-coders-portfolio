@@ -6,9 +6,10 @@ import Main from './components/Main';
 
 import Footer from './components/Footer';
 
+
 document.querySelector('#root').innerHTML = `
-${Navigation}
-${Header}
-${Main}
-${Footer}
+${Navigation()}
+${Header()}
+${Main()}
+${Footer()}
 `;

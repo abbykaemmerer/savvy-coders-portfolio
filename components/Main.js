@@ -1,4 +1,5 @@
-export default ` <main>
+export default function Main(){
+    return ` <main>
 <section class="lil">
     <div class="sec1">
   <h2 class="sec1title">Just a lil section header</h2>
@@ -25,3 +26,4 @@ export default ` <main>
 </section>
 
 </main>`;
+}
