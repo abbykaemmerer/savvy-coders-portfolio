@@ -1,5 +1,4 @@
-export default function Main(){
-    return ` <main>
+export default () => ` <main>
 <section class="lil">
     <div class="sec1">
   <h2 class="sec1title">Just a lil section header</h2>
@@ -24,6 +23,4 @@ export default function Main(){
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maiores architecto eaque animi? Excepturi, libero. Minus necessitatibus accusamus, eius quibusdam accusantium odit impedit incidunt? Delectus et iusto repellat doloribus exercitationem?</p>
 </div>
 </section>
-
 </main>`;
-}

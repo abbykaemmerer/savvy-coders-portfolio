@@ -1,8 +1,6 @@
-export default function Header(){
-    return `<header>
+export default (state) => `<header>
 <div id="greeting"></div>
 
-<h1>Abby Kaemmerer's Portfolio</h1>
+<h1>${state.title}</h1>
 
 </header>`;
-}
