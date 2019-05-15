@@ -1,7 +1,16 @@
-export default () => `<nav>
+function buildNavHTML(stateLinks){
+    let linksHTML = '';
+
+    stateLinks.forEach((link) => {
+        linksHTML += `<li><a href="">${link}</li>`;
+    });
+
+    return linksHTML;
+}
+
+export default (state) => `<nav>
 <ul class="flex">
-  <li><a href="about.html">About Me</a></li>
-  <li><a href="contact.html">Contact</a></li>
+  ${buildNavHTML(state.links)}
   <li>
     Portfolio
     <ul id="dropdown">

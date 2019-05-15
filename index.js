@@ -7,47 +7,46 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 
 // State is an object literal that will hold info that functional components to properly render
-const state = {};
+const states = {
+    'home': {
+        'title': 'Welcome',
+        'links': [ 'Home','About','Contact' ]
+    },
+    'contact': {
+        'title': 'Contact Me',
+        'links': [ 'Home','About','Contact' ]
+    },
+    'portfolio': {
+        'title': 'This is my Portfolio',
+        'links': [ 'About','Contact' ]
+    },
+    'about': {
+        'title': 'About Me',
+        'links': [ 'Home','About','Contact' ]
+    }
+};
 
-state.title = 'Some Title';
+const root = document.querySelector('#root');
 
-document.querySelector('#root').innerHTML = `
+function render(state){
+    console.log('named param state is', state);
+    root.innerHTML = `
 ${Navigation(state)}
 ${Header(state)}
 ${Main(state)}
 ${Footer(state)}
 `;
-
-// querySelectorAll returns a NodeList which is an Array Like Object
-const links = document.querySelectorAll('nav a');
-
-// We need to iterate or loop over the elements inside the NodeList
-// while keyword executes a block of code while some condition is true
-// A while loop does require a 'global' iterator variable
-let i = 0;
-
-while(i < links.length){
-    links[i].addEventListener('click', (event) => {
-        event.preventDefault();
-        console.log(event.target.textContent);
-    });
-
-    i++;
 }
 
+render(states.home);
+
+const links = document.querySelectorAll('nav a');
+
 links.forEach((link) => {
-    links[i].addEventListener('click', (event) => {
+    link.addEventListener('click', (event) => {
         event.preventDefault();
-        console.log('this is from click handler', event.target.textContent);
+        let x = event.target.textContent.toLowerCase();
+
+        return (`states.${x}`);
     });
-});
-
-// Imperative that we make sure to increment our iterator variable - else we will end up in an infinite loop
-// We need to add the addEventListener to each
-
-// Create click event handlers that will respond when we click one of our navigation elements
-document.querySelector('nav a').addEventListener('click', (event) => {
-    event.preventDefault();
-    console.log('I was clicked.');
-    console.log(event.target.textContent);
 });
