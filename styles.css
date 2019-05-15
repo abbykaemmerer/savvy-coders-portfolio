@@ -11,7 +11,6 @@ header{;
   padding-top: 30px;
   font-weight: 100px;
   text-align: center;
-  margin: 0 auto;
 }
 h1 {
   margin-right: 320px;
@@ -21,7 +20,8 @@ h1 {
 footer {
 color: darkcyan;
 text-align: center;
-padding: 15px;
+padding-right: 700px;
+padding-bottom: 10px;
 }
 
 body {
@@ -65,6 +65,7 @@ ul {
 li {
   list-style: none;
   text-align: center;
+  padding-top: 10px;
 }
 
 h2 {
@@ -166,5 +167,6 @@ li:hover #dropdown {
 
   footer {
     grid-area: footer;
+    text-align: center;
   }
 }

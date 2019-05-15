@@ -37,7 +37,6 @@ const states = {
 const root = document.querySelector('#root');
 
 function render(state){
-    console.log('named param state is', state);
     root.innerHTML = `
 ${Navigation(state)}
 ${Header(state)}
@@ -53,8 +52,9 @@ const links = document.querySelectorAll('nav a');
 links.forEach((link) => {
     link.addEventListener('click', (event) => {
         event.preventDefault();
-        let x = event.target.textContent.toLowerCase();
 
-        return (`states.${x}`);
+        render(states[`${event.target.textContent.toLowerCase()}`]);
     });
 });
+
+
