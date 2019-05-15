@@ -10,7 +10,8 @@ import Footer from './components/Footer';
 const states = {
     'home': {
         'title': 'Welcome',
-        'links': [ 'Home','About','Contact' ]
+        'links': { 'primary': [ 'Home','About','Contact' ],
+            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
     },
     'contact': {
         'title': 'Contact Me',
@@ -18,11 +19,13 @@ const states = {
     },
     'portfolio': {
         'title': 'This is my Portfolio',
-        'links': [ 'About','Contact' ]
+        'links': { 'primary': [ 'Home','About','Contact' ],
+            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
     },
     'about': {
         'title': 'About Me',
-        'links': [ 'Home','About','Contact' ]
+        'links': { 'primary': [ 'Home','About','Contact' ],
+            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
     }
 };
 
