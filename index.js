@@ -10,23 +10,28 @@ import Footer from './components/Footer';
 const states = {
     'home': {
         'title': 'Welcome',
-        'links': { 'primary': [ 'Home','About','Contact' ],
-            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    },
-    'contact': {
-        'title': 'Contact Me',
-        'links': [ 'Home','About','Contact' ]
-    },
-    'portfolio': {
-        'title': 'This is my Portfolio',
-        'links': { 'primary': [ 'Home','About','Contact' ],
-            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
+        'links': {
+            'primary': [ 'Home','About','Contact' ],
+            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
     },
     'about': {
         'title': 'About Me',
-        'links': { 'primary': [ 'Home','About','Contact' ],
-            "dropdown": [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    }
+        'links': {
+            'primary': [ 'Home','About','Contact' ],
+            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
+    },
+    'contact': {
+        'title': 'Contact Me',
+        'links': {
+            'primary': [ 'Home','About','Contact' ],
+            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
+    },
+    'portfolio': {
+        'title': 'This is my Portfolio',
+        'links': {
+            'primary': [ 'Home','About','Contact' ],
+            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
+    },
 };
 
 const root = document.querySelector('#root');
