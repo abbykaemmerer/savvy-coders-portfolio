@@ -7,8 +7,7 @@ html {
 .sec1 {
   max-width: 400px;
   text-align: center;
-
-
+  margin: 0 auto;
 }
 
 header{
@@ -18,6 +17,8 @@ header{
   width: 50vw;
   padding-top: 30px;
   font-weight: 100px;
+  text-align: center;
+  margin: 0 auto;
 }
 section {
 color: rgba(128, 0, 0, 0.612);
