@@ -4,12 +4,6 @@ html {
   background-color:#f5f5f5);
 }
 
-.sec1 {
-  max-width: 400px;
-  text-align: center;
-  margin: 0 auto;
-}
-
 header{
   color: rgb(156, 67, 26);
   font-size:24px;
@@ -20,9 +14,11 @@ header{
   text-align: center;
   margin: 0 auto;
 }
+
 section {
 color: rgba(128, 0, 0, 0.612);
 }
+
 footer {
 color: darkcyan;
 text-align: center;
@@ -35,7 +31,13 @@ body {
   border-style: solid;
   border-color: #eee;
   max-width: 800px;
+}
 
+
+.sec1 {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .container {
@@ -78,11 +80,6 @@ a{
 .justify-space--between {
   justify-content: space-between;
 }
-
-/*
-figure {
-  float: left;
-} */
 
 /* Form */
 input {
