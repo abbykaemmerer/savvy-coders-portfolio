@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 // State is an object literal that will hold info that functional components to properly render
 const states = {
     'home': {
-        'title': 'Welcome',
+        'title': 'Abby Kaemmerer',
         'links': {
             'primary': [ 'Home','About','Contact' ],
             'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }

@@ -4,8 +4,7 @@ html {
   background-color:#f5f5f5);
 }
 
-header{
-  color: rgb(156, 67, 26);
+header{;
   font-size:24px;
   height: 20vh;
   width: 50vw;
@@ -14,9 +13,9 @@ header{
   text-align: center;
   margin: 0 auto;
 }
-
-section {
-color: rgba(128, 0, 0, 0.612);
+h1 {
+  margin-right: 320px;
+  color: rgb(3, 87, 87);
 }
 
 footer {
@@ -37,7 +36,6 @@ body {
 .sec1 {
   max-width: 400px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .container {
