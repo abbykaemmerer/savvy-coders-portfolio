@@ -17,18 +17,17 @@ ${Header(state)}
 ${Main(state)}
 ${Footer(state)}
 `;
+    const links = document.querySelectorAll('nav a');
+
+    links.forEach((link) => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            render(states[`${event.target.textContent}`]);
+        });
+    });
 }
 
 render(states.Home);
-
-const links = document.querySelectorAll('nav a');
-
-links.forEach((link) => {
-    link.addEventListener('click', (event) => {
-        event.preventDefault();
-
-        render(states[`${event.target.textContent}`]);
-    });
-});
 
 
