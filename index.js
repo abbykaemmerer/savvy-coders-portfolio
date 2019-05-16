@@ -6,33 +6,7 @@ import Main from './components/Main';
 
 import Footer from './components/Footer';
 
-// State is an object literal that will hold info that functional components to properly render
-const states = {
-    'home': {
-        'title': 'Abby Kaemmerer',
-        'links': {
-            'primary': [ 'Home','About','Contact' ],
-            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    },
-    'about': {
-        'title': 'About Me',
-        'links': {
-            'primary': [ 'Home','About','Contact' ],
-            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    },
-    'contact': {
-        'title': 'Contact Me',
-        'links': {
-            'primary': [ 'Home','About','Contact' ],
-            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    },
-    'portfolio': {
-        'title': 'This is my Portfolio',
-        'links': {
-            'primary': [ 'Home','About','Contact' ],
-            'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ] }
-    },
-};
+import * as states from './store';
 
 const root = document.querySelector('#root');
 
@@ -45,7 +19,7 @@ ${Footer(state)}
 `;
 }
 
-render(states.home);
+render(states.Home);
 
 const links = document.querySelectorAll('nav a');
 
@@ -53,7 +27,7 @@ links.forEach((link) => {
     link.addEventListener('click', (event) => {
         event.preventDefault();
 
-        render(states[`${event.target.textContent.toLowerCase()}`]);
+        render(states[`${event.target.textContent}`]);
     });
 });
 
