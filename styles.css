@@ -113,6 +113,14 @@ form > div + div {
   margin-top: 10px;
 }
 
+@media screen and (min-width: 960px) {
+  .flex--md {
+    display: flex;
+  }
+  .flex--md section + section {
+    margin-left: 15px;
+  }
+}
 /* Navigation */
 
 nav {

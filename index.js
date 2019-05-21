@@ -24,22 +24,16 @@ ${Header(state)}
 ${Main(state)}
 ${Footer(state)}
 `;
-    const links = document.querySelectorAll('nav a');
 
-    links.forEach((link) => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-
-            render(states[`${event.target.closest('nav a').textContent}`]);
-        });
-    });
+    router.updatePageLinks();
 }
-
-function handleRoutes(params){
-    render(states[capitalize(params.path)]);
-}
+// function handleRoutes(params){
+//     render(states[capitalize(params.path)]);
+// }
 
 router
-    .on(':path', handleRoutes)
+    .on(':path', (params) => {
+        render(states[capitalize(params.path)]);
+    })
     .on('/', () => render(states.Home))
     .resolve();
