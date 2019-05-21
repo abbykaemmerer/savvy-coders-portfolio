@@ -23,7 +23,7 @@ ${Footer(state)}
         link.addEventListener('click', (event) => {
             event.preventDefault();
 
-            render(states[`${event.target.textContent}`]);
+            render(states[`${event.target.closest('nav a').textContent}`]);
         });
     });
 }
