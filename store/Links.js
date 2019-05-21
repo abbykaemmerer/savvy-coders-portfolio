@@ -1,6 +1,7 @@
 export default
 {
-    'primary': [ 'Home','About','Contact' ],
-    'dropdown': [ 'Class Project', 'Hack-A-Thon', 'Demo Day' ]
+    'primary': [
+        { 'text': 'Home', 'icon': 'fas fa-home' }, { 'text': 'About', 'icon': 'fas fa-id-card-alt' }, { 'text': 'Contact', 'icon': 'fas fa-phone' } ],
+    'dropdown': [ { 'text': 'Class Project' } , { 'text': 'Hack-A-Thon' }, { 'text': 'Demo Day' } ]
 };
 
