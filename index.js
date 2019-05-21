@@ -8,6 +8,9 @@ import Footer from './components/Footer';
 
 import * as states from './store';
 
+// Object Destructuring
+import { capitalize } from 'lodash';
+
 import Navigo from 'navigo';
 
 const router = new Navigo(window.location.origin);
@@ -32,8 +35,11 @@ ${Footer(state)}
     });
 }
 
+function handleRoutes(params){
+    render(states[capitalize(params.path)]);
+}
 
 router
-    .on(':path', (params) => console.log(params.path))
+    .on(':path', handleRoutes)
     .on('/', () => render(states.Home))
     .resolve();
