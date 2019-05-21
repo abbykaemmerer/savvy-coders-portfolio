@@ -1,5 +1,5 @@
-export default ` <h1 class="contact">Contact Me</h1>
-<form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" >
+export default ` <h1 class="contact">Send me somethin!</h1>
+<form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="contactForm" >
 <span>
     <label for="name">Your Name</label>
     <input type="text" id="name" name="userName" />

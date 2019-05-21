@@ -94,6 +94,10 @@ span + span {
   text-align: center;
 }
 
+.contactForm {
+  max-width: 750px;
+}
+
 form span + div {
   margin-top: 20px;
 }
