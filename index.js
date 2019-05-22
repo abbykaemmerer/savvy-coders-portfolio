@@ -31,6 +31,10 @@ ${Footer(state)}
 //     render(states[capitalize(params.path)]);
 // }
 
+// Check the URL bar
+// Grab anything that is beyond window.location.origin (e.g. /about)
+// Assign that to an Object called params with key of path
+// Use that 'capitalize' method from lodash that we imported to transform, for example 'about' to 'About'
 router
     .on(':path', (params) => {
         render(states[capitalize(params.path)]);

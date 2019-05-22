@@ -81,46 +81,6 @@ a{
   justify-content: space-between;
 }
 
-/* Form */
-input {
-  margin-left: 40px;
-}
-
-span + span {
-  margin-left: 15px;
-}
-
-.contact {
-  text-align: center;
-}
-
-.contactForm {
-  max-width: 750px;
-}
-
-form span + div {
-  margin-top: 20px;
-}
-textarea {
-  margin-top: 10px;
-}
-
-form p {
-  margin-bottom: 5px;
-}
-
-form > div + div {
-  margin-top: 10px;
-}
-
-@media screen and (min-width: 960px) {
-  .flex--md {
-    display: flex;
-  }
-  .flex--md section + section {
-    margin-left: 15px;
-  }
-}
 /* Navigation */
 
 nav {
@@ -145,6 +105,43 @@ li:hover #dropdown {
   display: block;
 }
 
+/* Form */
+input {
+  margin-left: 0px;
+}
+
+span + span {
+  margin-left: 15px;
+}
+
+form span + div {
+  margin-top: 20px;
+}
+textarea {
+  margin-top: 10px;
+}
+
+form p {
+  margin-bottom: 5px;
+}
+
+form > div + div {
+  margin-top: 10px;
+}
+#contactForm {
+  font-size: 13px;
+  max-width: 750px;
+  padding-right: 700px;
+
+}
+@media screen and (min-width: 960px) {
+  .flex--md {
+    display: flex;
+  }
+  .flex--md section + section {
+    margin-left: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   #root {
     /* Establish a grid. */
@@ -176,10 +173,10 @@ li:hover #dropdown {
 
   main {
     grid-area: main;
+
   }
 
   footer {
     grid-area: footer;
-    text-align: center;
   }
 }
