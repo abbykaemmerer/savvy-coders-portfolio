@@ -1,7 +1,7 @@
 /* ~ general selector; + adjacent selector */
 html {
   font-family: 'Playfair Display', serif;
-  background-color:#f5f5f5);
+  background-color:#f5f5f5;
 }
 
 header{;
@@ -12,10 +12,13 @@ header{;
   font-weight: 100px;
   text-align: center;
 }
+
 h1 {
   margin-right: 320px;
   color: rgb(3, 87, 87);
 }
+
+
 
 footer {
 color: darkcyan;
@@ -89,6 +92,15 @@ li:hover #dropdown {
   display: block;
 }
 
+@media screen and (min-width: 960px) {
+  .flex--md {
+    display: flex;
+  }
+  .flex--md section + section {
+    margin-left: 15px;
+  }
+}
+
 /* Form */
 input {
   margin-left: 0px;
@@ -112,20 +124,10 @@ form p {
 form > div + div {
   margin-top: 10px;
 }
-#contactForm {
-  font-size: 13px;
+#contact-form {
   max-width: 750px;
-  padding-right: 700px;
+}
 
-}
-@media screen and (min-width: 960px) {
-  .flex--md {
-    display: flex;
-  }
-  .flex--md section + section {
-    margin-left: 15px;
-  }
-}
 @media screen and (min-width: 1200px) {
   #root {
     border: solid 5px #eee;
