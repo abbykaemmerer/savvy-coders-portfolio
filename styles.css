@@ -25,15 +25,6 @@ padding-bottom: 20px;
 padding-top: 20px;
 }
 
-body {
-  background: #ffffff;
-  margin: 100px auto;
-  border-style: solid;
-  border-color: #eee;
-  max-width: 800px;
-}
-
-
 .sec1 {
   max-width: 400px;
   text-align: center;
