@@ -1,5 +1,5 @@
 import * as pages from './pages';
 export default (state) => `
 <main>
-${pages[state.pageContent]}
+${pages[state.pageContent](state)}
 </main>`;

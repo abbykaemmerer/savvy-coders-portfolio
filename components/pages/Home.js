@@ -1,10 +1,12 @@
-export default `<section>
+export default (state) => `<section>
 <div class="sec1">
-<h2 class="sec1title">Just a lil section header</h2>
+<h2 class="sec1title"></h2>
 <figure>
 <img
   src="${state.image}"
-  alt="Doge">
-<figcaption>Doge</figcaption>
+  width= 500px
+  height= 700px
+  alt="Toothless, the most beautiful cat in the world.">
+<figcaption>Toothless, the fearsome.</figcaption>
 </figure>
 </section>`;
