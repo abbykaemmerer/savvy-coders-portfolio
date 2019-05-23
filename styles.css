@@ -1,40 +1,29 @@
 /* ~ general selector; + adjacent selector */
 html {
   font-family: 'Playfair Display', serif;
-  background-color:#f5f5f5;
+  background-color:#f5f5f5
 }
 
 header{;
   font-size:24px;
-  height: 20vh;
-  width: 50vw;
   padding-top: 30px;
-  font-weight: 100px;
-  text-align: center;
-}
-
-h1 {
-  margin-right: 320px;
   color: rgb(3, 87, 87);
+  padding-left: 100px;
 }
-
-
 
 footer {
 color: darkcyan;
 text-align: center;
-padding-right: 700px;
+padding-right: 210px;
 padding-bottom: 20px;
 padding-top: 20px;
 }
 
 .sec1 {
-  max-width: 400px;
+  max-width: 500px;
   text-align: center;
-}
-
-.lil {
-color: rgb(103, 141, 46);
+  color: rgb(103, 141, 46);
+  margin: 35px;
 }
 
 .flex {
@@ -115,19 +104,31 @@ textarea {
 }
 
 form p {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 form > div + div {
-  margin-top: 10px;
+  margin-top: 25px;
 }
+
+label {
+  padding-top: 10px
+}
+.flex--column{
+  padding-right: 30px
+}
+
 #contact-form {
   max-width: 880px;
+  font-size: 13px
 }
 
 @media screen and (min-width: 1200px) {
   #root {
     border: solid 5px #eee;
+    background: #fff;
+
+
 
     /* Establish a grid. */
     display: grid;
@@ -143,7 +144,7 @@ form > div + div {
       "navigation main"
       "navigation footer";
 
-      margin: 25px;
+      margin: 100px 250px 100px 250px ;
   }
 
   nav {

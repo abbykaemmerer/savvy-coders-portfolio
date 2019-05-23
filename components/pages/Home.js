@@ -1,4 +1,4 @@
-export default `<section class="lil">
+export default `<section>
 <div class="sec1">
 <h2 class="sec1title">Just a lil section header</h2>
 <p>
