@@ -182,5 +182,6 @@ line-height: 1.5em;
 }
 
 figcaption {
-  float: left;
+  text-align: center;
+  padding-right: 170px;
 }

@@ -13,6 +13,8 @@ import { capitalize } from 'lodash';
 
 import Navigo from 'navigo';
 
+import axios from 'axios';
+
 const router = new Navigo(window.location.origin);
 
 const root = document.querySelector('#root');
@@ -27,6 +29,16 @@ ${Footer(state)}
 
     router.updatePageLinks();
 }
+
+axios
+    .get('https://jsonplaceholder.typicode.com/posts')
+    .then((response) => {
+        // TODO: Grab the posts from the dara, and iterate other them
+        // We need to 'push' each and every post into states.Blog.posts
+
+        console.log(response.data);
+    });
+
 // function handleRoutes(params){
 //     render(states[capitalize(params.path)]);
 // }
@@ -41,3 +53,5 @@ router
     })
     .on('/', () => render(states.Home))
     .resolve();
+
+
