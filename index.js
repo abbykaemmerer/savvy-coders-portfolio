@@ -36,7 +36,11 @@ axios
         // TODO: Grab the posts from the dara, and iterate other them
         // We need to 'push' each and every post into states.Blog.posts
 
-        console.log(response.data);
+        // 'response.data' is an Array of 'Post' Objects
+        // We need to get this into states.Blog.posts
+        response.data.forEach((post) => states.Blog.posts.push(post));
+        console.log(states);
+        render(states.Homes);
     });
 
 // function handleRoutes(params){
