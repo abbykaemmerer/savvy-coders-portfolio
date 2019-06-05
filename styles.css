@@ -21,6 +21,10 @@ padding-bottom: 20px;
 padding-top: 70px;
 }
 
+.blog-main {
+  padding-right: 150px;
+  text-emphasis: center;
+}
 .flex {
   display: flex;
 }

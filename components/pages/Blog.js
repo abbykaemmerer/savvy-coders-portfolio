@@ -1,5 +1,5 @@
 function buildPostsHTML(posts){
-    return posts.map((post) => `<article>
+    return posts.map((post) => `<article class='blog-main'>
     <h2>${post.title}</h2>
     <p>${post.body}</p>
     </article>`
@@ -7,7 +7,7 @@ function buildPostsHTML(posts){
 }
 
 export default function(state){
-    return `<h1>Hello from ${state.title}</h1>
+    return `<h1></h1>
     ${buildPostsHTML(state.posts)};
     `;
 }
