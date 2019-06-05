@@ -40,12 +40,15 @@ axios
         // We need to get this into states.Blog.posts
         response.data.forEach((post) => states.Blog.posts.push(post));
         console.log(states);
-        render(states.Homes);
+        // If user is routing to 'blog', then render to the Blog page here.
+        // If there was a requested route (e.g. /blog, /contact), then the 'params' property will exist.
+        // We will then check if the path inside of that was '.blog'
+        if(router.lastRouteResolved() && router.lastRouteResolved().params.path === 'blog'){
+            console.log(router.lastRouteResolved().params);
+            render(states.Blog);
+        }
     });
 
-// function handleRoutes(params){
-//     render(states[capitalize(params.path)]);
-// }
 
 // Check the URL bar
 // Grab anything that is beyond window.location.origin (e.g. /about)
