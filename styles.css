@@ -55,6 +55,15 @@ a{
   justify-content: space-between;
 }
 
+.capstone-title {
+text-decoration: underline;
+font-size: 22px;
+}
+.paws {
+padding: 40px;
+font-weight: bolder;
+color: #e96060;
+}
 /* Navigation */
 
 nav {
