@@ -5,7 +5,6 @@ export default (state) => `<section>
 <img
   src="${state.image}"
   width= 500px
-  alt="Toothless, the most beautiful cat in the world.">
-<figcaption>Toothless of the House Kaemmerer, First of his Name, The Unburnt, King of the First Kittens and Protector of the Swamp.  Breaker of Toys and Child of Abby.</figcaption>
+  alt="Me, attempting to model in front of a nice blue wall.">
 </figure>
 </section>`;
