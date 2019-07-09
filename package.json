@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "cloudinary": "^1.14.0",
+    "cloudinary-core": "^2.6.3",
     "lodash": "^4.17.11",
     "navigo": "^7.1.2"
   }

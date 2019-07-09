@@ -1,5 +1,5 @@
 export default (state) => `
-<p><h3 class="aboutlearn">If you'd like to learn a bit about me, continue reading. If not, go back to the home page and look at the purfect angel that is my cat.</h3>
+<p><h3 class="aboutlearn">If you'd like to learn a bit about me, continue reading. If not, here is a picture of my <a href='https://res.cloudinary.com/abbykaemmerer/image/upload/v1562688662/Tooth_wyb1cq.jpg'> cat </a>.</h3>
 <p class="aboutpara">I graduated in 2016 from the University of Missouri with a Bachelor's degree in Fisheries and Wildlife Sciences and a minor in Biological Sciences. I had always planned on working with animals and devoting my career to learning more about them and how to help them. After years of frustrating misleading jobs, I decided to change things up. Enter: SavvyCoders. I applied to SavvyCoders with little to no knowledge of coding, and an overwhelming desire to change my career. Throughout this program, I learned to love coding and am eager to begin my new career in web application development </p>
 <p>
 

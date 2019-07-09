@@ -13,6 +13,10 @@ import { capitalize } from 'lodash';
 
 import Navigo from 'navigo';
 
+import cloudinary from 'cloudinary-core';
+
+const cl = new cloudinary.Cloudinary({ 'cloud_name': 'abbykaemmerer', 'secure': true });
+
 import axios from 'axios';
 
 const router = new Navigo(window.location.origin);
