@@ -47,7 +47,7 @@ axios
         // If user is routing to 'blog', then render to the Blog page here.
         // If there was a requested route (e.g. /blog, /contact), then the 'params' property will exist.
         // We will then check if the path inside of that was '.blog'
-        if(router.lastRouteResolved() && router.lastRouteResolved().params.path === 'blog'){
+        if(router.lastRouteResolved() && router.lastRouteResolved().params.path === 'Blog'){
             console.log(router.lastRouteResolved().params);
             render(states.Blog);
         }
