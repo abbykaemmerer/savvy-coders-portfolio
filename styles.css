@@ -12,7 +12,7 @@ header {
 }
 
 footer {
-color: darkcyan;
+color: #6c9575;
 text-align: center;
 padding-right: 210px;
 padding-bottom: 20px;
@@ -47,7 +47,7 @@ h2 {
 
 a{
   text-decoration: none;
-  color: darkcyan;
+  color: #6c9575;
 }
 .justify-space--between {
   justify-content: space-between;
@@ -57,10 +57,19 @@ a{
 text-decoration: underline;
 font-size: 22px;
 }
-.paws {
-padding: 40px;
-font-weight: bolder;
-color: #e96060;
+
+.sec1 {
+  margin-bottom: 40px;
+}
+
+.sec1 li {
+  list-style: square;
+  padding: 0 15px;
+}
+.paws a {
+  font-weight: bolder;
+  font-size: x-large;
+  color: #519d90;
 }
 /* Navigation */
 
@@ -73,7 +82,7 @@ nav {
 nav li {
 margin: 0 20px;
 text-transform: uppercase;
-color: darkcyan;
+color: #6c9575;
 }
 
 #dropdown {
