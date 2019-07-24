@@ -6,8 +6,9 @@ export default (state) => `<section>
 <li> Using an API to import real life products for each condition </li>
 <li> Adding more animal species </li>
 </ul>
+
 <div class="paws">
-Visit https://abby-kaemmerer-capstone.netlify.com to experience 4PAWS!
+<a href="https://abby-kaemmerer-capstone.netlify.com">Visit 4PAWS!</a>
 </div>
 
 </section>`;
