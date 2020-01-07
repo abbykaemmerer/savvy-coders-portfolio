@@ -10,4 +10,4 @@ export { default as Capstone } from './Capstone';
 
 export { default as Blog } from './Blog';
 
-export { default as Wordpress } from './Wordpress';
+export { default as Projects } from './Projects';
