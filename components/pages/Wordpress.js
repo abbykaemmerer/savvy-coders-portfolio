@@ -1,9 +1,16 @@
 export default (state) => `
 <div class="sec1">
-<h3 class="capstone-title"> ${state.subtitle}</h3>
-<p>I created a web page for my side business, Fazed Faces, using the platform Wordpress. This website showcases my abilities as a make-up artist and displays images of different make-up looks on clients as well as a description of the look we created.
+<p>
+Since graduating SavvyCoders and working at TDK Technologies, I have wanted to continue learning and growing as a Front-End Developer. I have created these projects, landing pages, and games in order to do so.
+</p>
+<ul>
+<li>The RGB Game</li>
+<li>Bachelorette Invite</li>
+<li>Museum of Candy</li>
+<li>Adoption Landing Page</li>
+</ul>
 </div>
 <div class="paws">
-<a href="https://fazedfaces.wordpress.com">Visit Fazed Faces!</a>
+<a href="https://github.com/abbykaemmerer">Visit my GitHut page!</a>
 </div>
 `;

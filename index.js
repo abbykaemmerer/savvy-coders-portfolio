@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 
 import * as states from './store';
 
-// Object Destructuring
 import { capitalize } from 'lodash';
 
 import Navigo from 'navigo';
