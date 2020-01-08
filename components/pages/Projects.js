@@ -9,8 +9,9 @@ Since graduating SavvyCoders and working at TDK Technologies, I have wanted to c
 <li><a href="https://catadoption.netlify.com" target="_blank">Cat Adoption Landing Page</a></li>
 <br>
 <ul>Works In Progress:</ul>
-<li><a href="https://lauren-bach.netlify.com" target="_blank">Bachelorette Invite</a></li>
 <li>Transitioning my portfolio to a more responsive application</li>
+<li>Bachelorette Invite</li>
+<li>Recipe Catalog</li>
 </div>
 <div class="paws">
 <a href="https://github.com/abbykaemmerer" target="_blank">Visit my GitHub page!</a>
