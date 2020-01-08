@@ -1,6 +1,5 @@
-export default (state) => `<section>
+export default () => `<section>
 <div class="sec1">
-<h2 class="sec1title"></h2>
 <figure>
 <img
   src="https://res.cloudinary.com/abbykaemmerer/image/upload/v1562693595/me_kixbn2.jpg"
