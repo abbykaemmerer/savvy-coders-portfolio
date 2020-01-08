@@ -1,4 +1,4 @@
-export default (state) => `
+export default () => `
 <form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="contact-form" >
 <span>
     <label for="name">Your Name</label>
