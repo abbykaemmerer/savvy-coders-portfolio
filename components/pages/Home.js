@@ -1,4 +1,4 @@
-export default () => `<section>
+export default () => `<section id="home">
 <div class="sec1">
 <figure>
 <img

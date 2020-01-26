@@ -22,5 +22,8 @@
       "activityBar.background": "#0A3331",
       "titleBar.activeBackground": "#0E4844",
       "titleBar.activeForeground": "#F1FCFC"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
     }
   }

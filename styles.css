@@ -5,9 +5,8 @@ html {
 
 header {
   font-size:24px;
-  padding-top: 30px;
   color:#282829;
-  padding-left: 100px;
+  text-align: center;
 }
 
 footer {
@@ -55,6 +54,18 @@ a{
   text-decoration: none;
   color: #6c9575;
 }
+
+figure img {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+}
+
 .justify-space--between {
   justify-content: space-between;
 }
@@ -145,24 +156,27 @@ label {
 
 @media screen and (max-width: 1200px) {
   html {
-    background: #fff;
+    background: #f4f1f1;
   }
   #root {
     border: none;
   }
   nav {
-    border-bottom: #f4f1f1 1px solid;
+    border-bottom: ##c1c1c1 1px solid;
   }
   main section {
     display: flex;
+  }
+  figure img {
+    border: #0d1d40 2px solid;
+    box-shadow: #282829 2px 2px 5px;
+
   }
 
 }
 
 @media screen and (min-width: 1200px) {
-  figure img {
-    width: 80%;
-  }
+
   #root {
     border: solid 3px #eee;
     background: #fff;
