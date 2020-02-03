@@ -253,3 +253,12 @@ figcaption {
   padding-right: 170px;
   width: 500px;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -8,6 +8,6 @@ export { default as Contact } from './Contact';
 
 export { default as Capstone } from './Capstone';
 
-export { default as Blog } from './Blog';
+export { default as Resume } from './Resume';
 
 export { default as Projects } from './Projects';
