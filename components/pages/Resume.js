@@ -12,7 +12,7 @@ export default function(state){
     <br><br>
     <h3>Education</h3>
     <ul class="underline">University of Missouri</ul>
-    <li>&#8226; Bachelor of Science:Fisheries and Wildlife Sciences</li>
+    <li>&#8226; Bachelor of Science: Fisheries and Wildlife Sciences</li>
     <li>&#8226; Minor: Biological Sciences</li>
     <br><br>
     <h3>Skills</h3>
